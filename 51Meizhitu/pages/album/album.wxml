@@ -1,0 +1,18 @@
+<view class="container">
+    <scroll-view scroll-y="true" class="image-list-wrap">
+    <block wx:for="{{imgObjList}}" wx:key="" wx:item="{{item.url}}">
+        <!-- <view>
+        <image bindload="imageload" bindtap="preiviewwImage" mode="aspectFit" src="{{item.imgSrc}}" data-src="{{item.imgSrc}}" data-index="{{index}}" style="width:{{item.w}}rpx;height:{{item.h}}rpx"/>
+        </view> -->
+
+        <view class="">2222</view>
+    </block>
+</scroll-view>
+    <!--图片数目-->
+    <!-- <block wx:if="{{countShow}}">
+        <view class="albumCount" bindtap="hideCount">
+        {{total}}
+        </view>
+    </block> -->
+</view>
+
